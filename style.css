@@ -4,6 +4,14 @@ body {
   background: #f5f5f5;
 }
 
+body{
+  background:
+  linear-gradient(
+    #f8fafc,
+    #e2e8f0
+  );
+}
+
 header {
   background: #111;
   color: white;
@@ -125,4 +133,16 @@ footer {
   padding: 15px;
   background: #111;
   color: white;
+}
+
+nav{
+  position:fixed;
+  top:0;
+  width:100%;
+
+  background:#000;
+
+  padding:20px;
+
+  z-index:1000;
 }
