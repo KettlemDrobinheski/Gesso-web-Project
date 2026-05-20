@@ -65,13 +65,31 @@ header {
   justify-content: center;
 }
 
-.card {
-  background: white;
-  padding: 20px;
-  width: 250px;
-  border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
+<section class="services">
+
+  <h2>Serviços</h2>
+
+  <div class="card">
+    <h3>Teto de gesso</h3>
+    <p>Acabamento moderno e sofisticado.</p>
+  </div>
+
+  <div class="card">
+    <h3>Sanca aberta</h3>
+    <p>Projetos modernos com iluminação.</p>
+  </div>
+
+  <div class="card">
+    <h3>Molduras</h3>
+    <p>Detalhes elegantes para ambientes.</p>
+  </div>
+
+  <div class="card">
+    <h3>Reparos</h3>
+    <p>Manutenção e acabamento profissional.</p>
+  </div>
+
+</section>
 
 .card{
   background:white;
